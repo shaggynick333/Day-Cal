@@ -1,0 +1,145 @@
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+hgroup,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Montserrat", sans-serif;
+  color: #d1d1d1;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  color: #0f4554;
+}
+
+.container {
+  height: 900px;
+  width: 900px;
+  display: inline-flex;
+}
+
+.timings {
+  text-align: right;
+  padding-right: 10px;
+  width: 100px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 0.5em;
+  box-sizing: border-box;
+}
+
+.timings span {
+  font-size: 200%;
+  color: #696969;
+}
+
+.days {
+  height: 900px;
+  width: 620px;
+  padding: 0px 10px;
+  background-color: #f0f0f0;
+  border-color: #d1d1d1;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+.event {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 5px;
+  border-color: #d1d1d1;
+  border-left-color: #20a3c7;
+  padding-left: 10px;
+  padding-top: 5px;
+  position: absolute;
+  font-size: 0.5em;
+  box-sizing: border-box;
+}
+
+.event .title {
+  color: #20a3c7;
+  font-size: 200%;
+}
